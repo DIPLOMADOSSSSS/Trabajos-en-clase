@@ -54,5 +54,8 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+<<<<<<< HEAD
 
 /generated/prisma
+=======
+>>>>>>> 98408ceda8cfd903ec7a1aab04a9b9411b718198
