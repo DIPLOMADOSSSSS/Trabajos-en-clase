@@ -8,7 +8,7 @@ import { CreateProductoDto } from './dto/create-producto.dto';
 export class ProductoController {
     constructor(private readonly productoService: ProductoService) { }
     @Post()
-    create(@Body() dto: CreateProductoDto) {
+    async create(@Body() dto: CreateProductoDto) {
         return this.productoService.create(dto);
     }
 
